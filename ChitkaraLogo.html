@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px;
+            background-color: white;
+        }
+
+        .container{
+            width: 800px;
+            height: 800px;
+            background-color: red;
+            border-radius: 15%;
+            position: relative;
+        }
+
+        .shape{
+            position: absolute;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+        .white{
+            background-color: white;
+        }
+
+        .one{
+            width: 300px;
+            height: 320px;
+            left: 85px;
+            bottom: 80px;
+            z-index: 5;
+        }
+
+        .two{
+            width: 400px;
+            height: 400px;
+            left: 58px;
+            bottom: 80px;
+            z-index: 4;
+        }
+
+        .three{
+            width: 500px;
+            height: 500px;
+            left: 58px;
+            bottom: 80px;
+            z-index: 3;
+        }
+
+        .four{
+            width: 550px;
+            height: 550px;
+            left: 58px;
+            bottom: 80px;
+            z-index: 2;
+        }
+
+        .five{
+            width: 650px;
+            height: 650px;
+            left: 58px;
+            bottom: 80px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="shape white one"></div>
+        <div class="shape red two"></div>
+        <div class="shape white three"></div>
+        <div class="shape red four"></div>
+        <div class="shape white five"></div>
+
+    </div>
+
+</body>
+</html>
