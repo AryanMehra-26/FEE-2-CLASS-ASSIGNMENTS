@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4X4 Chess Board</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            background-color: lightgray;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows: repeat(4, 100px);
+            border: 2px solid black;
+        }
+
+        .box1{
+            background-color: white;
+        }
+
+        .box2{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+
+    </div>
+
+</body>
+</html>
